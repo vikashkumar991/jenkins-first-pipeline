@@ -10,7 +10,7 @@ def home():
 def info():
 	return "hii, my name is vikash kumar singh"
 
-@myapp.route("/profile"):
+@myapp.route("/profile")
 def profile():
 	return "hii i am a devops engineer"
 
