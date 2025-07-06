@@ -14,4 +14,4 @@ def info():
 def profile():
 	return "hii i am a devops engineer"
 
-myapp.run()
+myapp.run(host="0.0.0.0")
