@@ -2,7 +2,6 @@ from flask import Flask, render_template
 
 app = Flask(__name__, template_folder='templates')
 
-# Sample data - you can replace with your actual information
 profile_data = {
     "name": "Vikash Kumar Singh",
     "title": "DevOps Engineer",
